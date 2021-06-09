@@ -1,0 +1,504 @@
+body{
+    margin: 0%;
+    font-family: Montserrat;
+}
+
+.header{
+    background: linear-gradient(180deg, #FF99C4 44.17%, rgba(255, 255, 255, 0.12) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+    height: 18.625rem;
+    width: 100%;
+    outline:none
+}
+
+.logo1{
+    width: 12.063rem;
+    padding-left: 3.5rem;
+}
+
+
+form {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: #FFFFFF;
+    border: 1px solid #8D8D8D;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    margin-right: 4.063rem;
+}
+
+form input{
+    padding: none;
+    border-radius: 1.25rem;
+    border: none;
+    font-family: Montserrat;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #8D8D8D;
+    outline:none
+}
+
+form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+    border: none;
+    outline:none
+}
+
+.mainconteudo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 3.375rem;
+    padding-bottom: 8rem;
+}
+
+
+.conteudo1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.375rem;
+}
+
+.tablito{
+    width: 22.938rem;
+    height: 30.25rem;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    flex-direction: row;
+}
+
+.tablitao{
+    padding-top: 1.688rem;
+    padding-bottom: 0.875rem;
+}
+
+.titleTablito{
+    font-size: 1.563rem;
+    line-height: 1.875px;
+    color: #000000;
+}
+
+.informationTablito{
+    line-height: 1.25rem;
+    color: #8A8585;
+    padding-left: 2.75rem;
+    padding-right: 3.938rem;
+}
+
+.priceTablito{
+    font-size: 1.563rem;
+    line-height: 1.875rem;
+}
+
+.minipicoles{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.brigadeiro{
+    text-align: center;
+    width: 13.75rem;
+    height: 13.125rem;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+}
+
+.brigadeirao{
+    padding-top: 1.625rem;
+}
+
+.azul{
+    text-align: center;
+    width: 13.75rem;
+    height: 13.125rem;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+}
+
+.azulao{
+    padding-top: 1.438rem;
+}
+
+.conteudo2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.375rem;
+}
+
+
+.chicabom{
+    text-align: center;
+    width: 22.938rem;
+    height: 30.25rem;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    flex-direction: row;
+}
+
+.chicabao{
+    padding-top: 2.5rem;
+    padding-bottom: 1.625rem;
+}
+
+.titleChicabom{
+    font-size: 1.563rem;
+    line-height: 1.875px;
+    color: #000000;
+}
+
+.informationChicabom{
+    line-height: 1.25rem;
+    color: #8A8585;
+    padding-left: 2.75rem;
+    padding-right: 3.938rem;
+}
+
+.priceChicabom{
+    font-size: 1.563rem;
+    line-height: 1.875rem;
+}
+
+.minipicoles2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.morango{
+    text-align: center;
+    width: 13.75rem;
+    height: 13.125rem;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+}
+
+.morangao{
+    padding-top: 1.75rem;
+}
+
+.minions{
+    text-align: center;
+    width: 13.75rem;
+    height: 13.125rem;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+}
+
+.minionsao{
+    padding-top: 2.188rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: rgba(244, 155, 140, 0.56);
+    width: 100%;
+    height: 13.875rem;
+    font-family: Montserrat;
+}
+
+.logo2{
+    display: flex;
+    align-items: center;
+    padding-left: 7.188rem;
+   
+}
+
+.fotinformation{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-weight: 31.25rem;
+    font-size: 1.25rem; 
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 7.375rem;
+}
+
+.number{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    align-items: center;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    align-items: center;
+}
+
+.insta{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    align-items: center;
+}
+
+
+
+@media (max-width:400px){
+    
+     img{
+        width: 100%;
+    } 
+
+    form {
+        margin-right: 1.5rem;
+        
+    }
+
+    form button{
+        width: 1.875rem;
+    }
+
+    .logo1{
+        width: 7.375rem;
+        padding-left: 1.188rem;
+    }
+
+    .logo2,form input{
+        display: none;
+    }
+
+   .footer{
+       display: flex;
+       justify-content: center;
+       align-content: flex-end;
+       align-items: center;
+       
+   }
+   .fotinformation{
+       order: 2;
+   }
+   
+    .contatos{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 0;
+   }
+
+   .email img{
+       width: 15px;
+   }
+
+   .insta img{
+       width: 18px;
+   }
+
+}
+
+@media (max-width:680px){
+
+    p{
+        text-justify:auto;
+    }
+
+    .conteudo1,.conteudo2{
+        gap: 1.125rem;
+    }
+
+    .conteudo2{
+        flex-direction: row-reverse;
+    }
+
+    .tablito{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 10.438rem;
+        height: 13.75rem;
+    }
+
+    .tablito img{
+        width: 7.688rem;
+        height: 7.688rem;
+        
+    }
+
+    .informationTablito p{
+        text-justify:auto;
+        width: 7.313rem;
+        height: 1.188rem;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+ .informationTablito{
+        padding: 0rem;
+        padding-right: 0rem;
+        text-align: center;
+        height: 1.188rem;
+        width: 7.313rem;
+        font-size: 0.5rem;
+        margin-bottom: 0.563rem;
+    }
+    .titleTablito p {
+        margin: 0rem;
+        height: 1.188rem;
+        width:8.688rem ;
+    }
+
+    .titleTablito{
+        height: 1.188rem;
+        width:8.688rem ;
+        font-size: 0.938rem;
+       
+    }
+
+    .priceTablito p{
+        margin: 0rem;
+        height: 1.188rem;
+        width:8.688rem ;
+    }
+
+    .priceTablito{
+        font-size: 0.875rem;
+    }
+
+    .tablitao{
+        padding: 0rem;
+        margin-top: 0.75rem;
+        margin-bottom: 0.375rem;
+    }
+
+    .minipicoles{
+        height: 13.75rem;
+        flex-wrap: nowrap;
+        gap: 1.813rem;
+    }
+
+    .brigadeiro,.azul{
+        height: 6.25rem;
+        width: 5.938rem;
+        padding-top: 0.688rem;
+    }
+
+    .brigadeiro img, .azul img{
+        width:4.5rem ;
+        height:4.5rem ;
+    }
+
+    .brigadeirao,.azulao{
+        padding: 0rem;
+    }
+    
+    .chicabom{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 10.313rem;
+        height: 13.563rem;
+    }
+
+    .chicabom img{
+        width: 6.875rem;
+        height: 6.875rem;
+        
+    }
+
+    .titleChicabom p{
+        margin: 0rem;
+        height: 1.188rem;
+        width:8.688rem ;
+    }
+
+    .titleChicabom{
+        padding-top: 0.688rem;
+        width:8.688rem ;
+        font-size: 0.938rem;
+        
+    }
+
+    .informationChicabom p{
+        width: 6.375rem;
+        height: 1.188rem;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .informationChicabom{
+        width: 6.375rem;
+        height: 1.188rem;
+        font-size: 0.5rem;
+        padding: 0;
+    }
+
+    .priceChicabom p{
+        height: 1.188rem;
+        width:8.688rem ;
+    }
+
+    .priceChicabom{
+        font-size: 0.875rem;
+    }
+
+    .chicabao{
+        width: 6.875;
+        height: 6.875;
+    }
+
+    .minipicoles2{
+        height: 13.75rem;
+        flex-wrap: nowrap;
+        gap: 1.813rem;
+    }
+
+    .minions,.morango{
+        height: 6.188rem;
+        width: 5.875rem;
+        padding-top: 0.688rem;
+    }
+
+    .morango img, .minions img{
+        width:4.375rem ;
+        height:4.375rem ;
+    }
+
+    .morangao,.chicabao{
+        padding: 0rem;
+    }
+
+    .minionsao{
+        padding-top: 0
+    }
+
+}
