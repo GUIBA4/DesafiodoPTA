@@ -11,7 +11,7 @@ body{
     align-items: center; 
     height: 18.625rem;
     width: 100%;
-    outline:none
+    outline:none;
 }
 
 .logo1{
@@ -19,6 +19,12 @@ body{
     padding-left: 3.5rem;
 }
 
+.buttonIce{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.375rem;
+}
 
 form {
     display: flex;
@@ -79,7 +85,6 @@ form button {
     border-radius: 1.25rem;
     text-align: center;
     font-family: Montserrat;
-    font-style: normal;
     flex-direction: row;
 }
 
@@ -90,12 +95,10 @@ form button {
 
 .titleTablito{
     font-size: 1.563rem;
-    line-height: 1.875px;
     color: #000000;
 }
 
 .informationTablito{
-    line-height: 1.25rem;
     color: #8A8585;
     padding-left: 2.75rem;
     padding-right: 3.938rem;
@@ -103,7 +106,6 @@ form button {
 
 .priceTablito{
     font-size: 1.563rem;
-    line-height: 1.875rem;
 }
 
 .minipicoles{
@@ -166,12 +168,10 @@ form button {
 
 .titleChicabom{
     font-size: 1.563rem;
-    line-height: 1.875px;
     color: #000000;
 }
 
 .informationChicabom{
-    line-height: 1.25rem;
     color: #8A8585;
     padding-left: 2.75rem;
     padding-right: 3.938rem;
@@ -179,7 +179,6 @@ form button {
 
 .priceChicabom{
     font-size: 1.563rem;
-    line-height: 1.875rem;
 }
 
 .minipicoles2{
@@ -284,8 +283,22 @@ form button {
         
     }
 
+    button{
+        padding: 0rem;
+    }
+
+    button img{
+        height: 12px;
+        width: 12px;
+    }
+
     form button{
-        width: 1.875rem;
+        width: 18px;
+        height: 18px;
+    }
+
+    .buttonIce{
+        display: none;
     }
 
     .logo1{
