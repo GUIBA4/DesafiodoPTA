@@ -1,17 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 body{
     margin: 0%;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.header{
+h1, p{
+    margin: 0px;
+}
+
+.lupa{
+    background-image: url("Vector.png");
+    width: 25px;
+    height: 25px;
+    margin-right: 19px;
+}
+
+button{
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline:none
+}
+
+
+@media(min-width:400px){
+   .hide{
+    display: none !important;
+   }
+
+} 
+
+.backgroundNeon {
+    animation: fundoNeon 1s 3 alternate  ease-in-out;
+}
+
+@keyframes fundoNeon {
+  0% { background: transparent; color: #333;}
+  33% { background: #c1272d; color: #FFF; }
+  85% { background: #c1272d; color: #FFF; }
+  100% { background: transparent; color: #333; }
+}
+
+@media(max-width:400px){
+    .hide2{
+     display: none !important;
+    }
+    
+    .buttonIceHide img{
+        width: 67px;
+        height: 39px;
+    }
+
+    .buttonIceHide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 23px;
+    }
+
+    .blocoHeader{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    form input{ 
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        width:  169px;
+        height: 30px;
+        font-size: 15px !important; 
+    }
+
+}
+
+#headerHide{
     background: linear-gradient(180deg, #FF99C4 44.17%, rgba(255, 255, 255, 0.12) 100%);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    height: 198px;
+    width: 100%;
+    outline:none;
+    gap: 23px;
+}
+
+
+.tablitoHide{
+    display: none;
+    padding-left:40% ;
+    flex-direction: column;
+    width: 22.938rem;
+    height: 30.25rem;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    text-align: center;
+    
+}
+
+.brigadeiroHide{
+    display: none;
+    padding-left:40% ;
+    flex-direction: column;
+    width: 22.938rem;
+    height: 30.25rem;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    text-align: center;
+}
+
+.azulHide{
+    display: none;
+    padding-left:40% ;
+    flex-direction: column;
+    width: 22.938rem;
+    height: 30.25rem;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    text-align: center;
+}
+
+.chicabomHide{
+    display: none;
+    padding-left:40% ;
+    flex-direction: column;
+    width: 22.938rem;
+    height: 30.25rem;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    text-align: center;
+}
+
+.morangoHide{
+    display: none;
+    padding-left:40% ;
+    flex-direction: column;
+    width: 22.938rem;
+    height: 30.25rem;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    text-align: center;
+}
+
+.minionsHide{
+    display: none;
+    padding-left:40% ;
+    flex-direction: column;
+    width: 22.938rem;
+    height: 30.25rem;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    text-align: center;
+}
+
+#header{
+    background: linear-gradient(180deg, #FF99C4 44.17%, rgba(255, 255, 255, 0.12) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
     align-items: center; 
     height: 18.625rem;
     width: 100%;
-    outline:none
+    outline:none;
+}
+
+.buttonIce img{
+    width: 156px;
+    height: 90px;
 }
 
 .logo1{
@@ -19,6 +185,12 @@ body{
     padding-left: 3.5rem;
 }
 
+.buttonIce{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.375rem;
+}
 
 form {
     display: flex;
@@ -30,14 +202,13 @@ form {
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 1.25rem;
-    margin-right: 4.063rem;
+    margin-right: 65px;
+    align-items: center;
 }
 
 form input{
-    padding: none;
     border-radius: 1.25rem;
     border: none;
-    font-family: Montserrat;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
@@ -78,8 +249,6 @@ form button {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 1.25rem;
     text-align: center;
-    font-family: Montserrat;
-    font-style: normal;
     flex-direction: row;
 }
 
@@ -90,20 +259,19 @@ form button {
 
 .titleTablito{
     font-size: 1.563rem;
-    line-height: 1.875px;
     color: #000000;
+    padding-bottom: 6px;
 }
 
 .informationTablito{
-    line-height: 1.25rem;
     color: #8A8585;
     padding-left: 2.75rem;
     padding-right: 3.938rem;
+    padding-bottom: 21px;
 }
 
 .priceTablito{
     font-size: 1.563rem;
-    line-height: 1.875rem;
 }
 
 .minipicoles{
@@ -166,20 +334,19 @@ form button {
 
 .titleChicabom{
     font-size: 1.563rem;
-    line-height: 1.875px;
     color: #000000;
+    padding-bottom: 6px;
 }
 
 .informationChicabom{
-    line-height: 1.25rem;
     color: #8A8585;
-    padding-left: 2.75rem;
-    padding-right: 3.938rem;
+    padding-left: 70px;
+    padding-right:70px;
+    padding-bottom: 21px;
 }
 
 .priceChicabom{
     font-size: 1.563rem;
-    line-height: 1.875rem;
 }
 
 .minipicoles2{
@@ -216,12 +383,12 @@ form button {
     padding-top: 2.188rem;
 }
 
-.footer{
+#footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
-    background: rgba(244, 155, 140, 0.56);
+    background-color: rgba(244, 155, 140, 0.56);
     width: 100%;
     height: 13.875rem;
     font-family: Montserrat;
@@ -248,6 +415,7 @@ form button {
     flex-direction: column;
     justify-content: center;
     margin-right: 7.375rem;
+    gap: 34.55px;
 }
 
 .number{
@@ -284,20 +452,34 @@ form button {
         
     }
 
-    form button{
-        width: 1.875rem;
+    button{
+        padding: 0rem;
     }
+
+    nav img{
+        height: 16px;
+        width: 16px;
+    }
+
+    .lupa{
+        width: 16px;
+        height: 16px;
+        background-image: url("Vector 2.png");
+        margin: 7px;
+        
+    }
+    
 
     .logo1{
         width: 7.375rem;
         padding-left: 1.188rem;
     }
 
-    .logo2,form input{
+    .logo2{
         display: none;
     }
 
-   .footer{
+    #footer{
        display: flex;
        justify-content: center;
        align-content: flex-end;
@@ -356,12 +538,13 @@ form button {
     .informationTablito p{
         text-justify:auto;
         width: 7.313rem;
-        height: 1.188rem;
+        height: 19px;
         padding: 0rem;
         margin: 0rem;
-    }
+        padding-bottom: 9px;
+    } 
 
- .informationTablito{
+    .informationTablito{
         padding: 0rem;
         padding-right: 0rem;
         text-align: center;
@@ -370,6 +553,7 @@ form button {
         font-size: 0.5rem;
         margin-bottom: 0.563rem;
     }
+    
     .titleTablito p {
         margin: 0rem;
         height: 1.188rem;
@@ -380,7 +564,7 @@ form button {
         height: 1.188rem;
         width:8.688rem ;
         font-size: 0.938rem;
-       
+        padding-bottom:1px ;
     }
 
     .priceTablito p{
@@ -445,7 +629,8 @@ form button {
         padding-top: 0.688rem;
         width:8.688rem ;
         font-size: 0.938rem;
-        
+        padding-bottom: 1px;
+        font-weight: 500px;
     }
 
     .informationChicabom p{
@@ -459,7 +644,8 @@ form button {
         width: 6.375rem;
         height: 1.188rem;
         font-size: 0.5rem;
-        padding: 0;
+        padding-bottom: 10px;
+
     }
 
     .priceChicabom p{
@@ -501,4 +687,8 @@ form button {
         padding-top: 0
     }
 
+
+    
 }
+
+

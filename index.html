@@ -9,36 +9,77 @@
 </head>
 <body>
 
-    <header class="header">
-        <div class="logo1">
-            <img src="logo1.png">
+    <header>
+        <div id="header">
+            <div class="logo1">
+                <img src="logo1.png">
+            </div>
+            
+            <div class="buttonIce"  >
+                <div class="blueIce">
+                   <button   id="btnBlue" onclick="click1()" > <img src="blueIce.png"> </button>
+                </div>
+                <div class="pinkIce">
+                    <button  id="btnPink" onclick="click2()" > <img src="pinkIce.png"> </button>
+                </div>
+                <div class="orangeIce">
+                    <button id="btnOrange" onclick="click3()" > <img src="orangeIce.png"> </button>
+                </div>
+            </div>
+            <nav class="nav"  >
+                <form>
+                    <input type="text" name="search" autocomplete="off"  id="search" placeholder="Procure seu sorvete" required  value="">
+                    <div class="lupa" onclick="click5()"  > </div> 
+                </form>
+            </nav>
         </div>
-        <nav>
-            <form action="#" method="post" autocomplete="off">
-                <input type="text" name="search" id="search" placeholder="Procure seu sorvete" required>   
-                <button type="submit"><img src="Vector.png"></button>
-            </form>
-        </nav>
+
+        <div id="headerHide" >
+            <div class="blocoHeader">
+                <div class="logo1">
+                    <img src="logo1.png">
+                </div>
+                <nav class="nav2">
+                    <form >
+                        <input type="text"  autocomplete="off"  id="search1" placeholder="Procure seu sorvete" required onblur="esconderCampoPesquisa()" value="">
+                        <div class="lupa" onclick="click4()" > </div> 
+                    </form>
+                </nav>
+            </div>
+            <div class="buttonIceHide" >
+                <div class="blueIce">
+                   <button   id="btnBlue" onclick="click1()" > <img src="blueIce.png"> </button>
+                </div>
+                <div class="pinkIceHIde">
+                    <button  id="btnPinkHIde" onclick="click2()" > <img src="pinkIce.png"> </button>
+                </div>
+                <div class="orangeIceHIde">
+                    <button id="btnOrange" onclick="click3()" > <img src="orangeIce.png"> </button>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
-        <div class="mainconteudo">
+        <div class="mainconteudo" id="mainconteudo">
             <div class="conteudo1">
-                <div class ="tablito">
+                <div class ="tablito" nome="tablito" id="tablito">
                     <div class="tablitao">   
                         <img src="tablito.png">
                     </div>
                     <div class="titleTablito"> <p>Picolé Tablito</p> </div>
-                    <div class="informationTablito"> <p>Picolé de chocolate tradicional e branco 106g (R$0,05/g)</p> </div>
+                    <div class="informationTablito"> 
+                        <p>Picolé de chocolate  tradicional  e branco 106g (R$0,05/g)  </p> 
+                    </div>
                     <div class ="priceTablito"> <p>R$ 5,00</p> </div>
                 </div>
                 <div class="minipicoles">
-                    <div class="brigadeiro">
+                    <div class="brigadeiro " nome="brigadeiro" id="brigadeiro">
                         <div class="brigadeirao">
                             <img src="brigadeiro.png">
                         </div>
                     </div>    
-                    <div class="azul">
+                    <div class="azul" nome="azul">
                         <div class="azulao" >
                             <img src="azul.png">
                         </div>
@@ -46,12 +87,14 @@
                 </div>
             </div>
             <div class="conteudo2">
-                <div class="chicabom">
+                <div class="chicabom" nome="chica bon" id="chica bon">
                     <div class="chicabao">
                         <img src="chica bom.png"> 
                     </div>
                     <div class="titleChicabom"> <p>Chica Bon</p> </div>
-                    <div class="informationChicabom"> <p>Picolé de chocolate tradicional 106g (R$0,05/g)</p> </div>
+                    <div class="informationChicabom"> 
+                        <p>Picolé de chocolate  tradicional 106g (R$0,05/g)</p> 
+                    </div>
                     <div class ="priceChicabom"> <p>R$ 5,00</p> </div>
                 </div>
                 <div class="minipicoles2">
@@ -69,27 +112,93 @@
             </div>
         </div>
     </main>
+    <div class ="tablitoHide" nome="tablitoHide" id="tablitoHide">
+        <div class="tablitao">   
+            <img src="tablito.png">
+        </div>
+        <div class="titleTablito"> <p>Picolé Tablito</p> </div>
+        <div class="informationTablito"> 
+            <p>Picolé de chocolate  tradicional  e branco 106g (R$0,05/g)  </p> 
+        </div>
+        <div class ="priceTablito"> <p>R$ 5,00</p> </div>
+    </div>
+
+    <div class="azulHide " nome="azulHide" id="azulHide">
+        <div class="azulao">   
+            <img src="azul.png">
+        </div>
+        <div class="titleTablito"> <p> Kolorix </p> </div>
+        <div class="informationTablito"> 
+            <p>Picolé azul colorido de 100g (R$0,05/g)  </p> 
+        </div>
+        <div class ="priceTablito"> <p>R$ 3,00</p> </div>
+    </div>
+
+    <div class="brigadeiroHide" nome="brigadeiroHide" id="brigadeiroHide">
+        <div class="brigadeirao">   
+            <img src="brigadeiro.png">
+        </div>
+        <div class="titleTablito"> <p> Brigadeiro </p> </div>
+        <div class="informationTablito"> 
+            <p>Picolé de chocolate  tradicional  e granulado 106g (R$0,05/g)  </p> 
+        </div>
+        <div class ="priceTablito"> <p>R$ 5,00</p> </div>
+    </div>
+
+    <div class="chicabomHide" nome="chicabomHIde" id="chicabomHide">
+        <div class="chicabao">
+            <img src="chica bom.png"> 
+        </div>
+        <div class="titleChicabom"> <p>Chica Bon</p> </div>
+        <div class="informationChicabom"> 
+            <p>Picolé de chocolate  tradicional 106g (R$0,05/g)</p> 
+        </div>
+        <div class ="priceChicabom"> <p>R$ 5,00</p> </div>
+    </div>
+
+    <div class="morangoHide" nome="morangoHIde" id="morangoHide">
+        <div class="morangao">
+            <img src="morango.png"> 
+        </div>
+        <div class="titleChicabom"> <p>morango</p> </div>
+        <div class="informationChicabom"> 
+            <p>Picolé de morango  tradicional 106g (R$0,05/g)</p> 
+        </div>
+        <div class ="priceChicabom"> <p>R$ 5,00</p> </div>
+    </div>
+
+    <div class="minionsHide" nome="minionsHide" id="minionsHide">
+        <div class="minionsao">
+            <img src="minions.png"> 
+        </div>
+        <div class="titleChicabom"> <p>minions</p> </div>
+        <div class="informationChicabom"> 
+            <p>Picolé de banana (fonte de cálcio)  tradicional 106g (R$0,05/g)</p> 
+        </div>
+        <div class ="priceChicabom"> <p>R$ 5,00</p> </div>
+    </div>
+
     <footer>
-        <div class="footer">
-            <div class="logo2"> 
+        <div id="footer">
+            <div class="logo2">
                 <img src="logo2.png">
             </div>
             <div class="fotinformation">
-                <p> Made with &lt;/&gt; and &#10084; by Guilherme </p> 
+                <p> Made with &lt;/&gt; and &#10084; by Guilherme </p>
             </div>
             <div class="contatos">
                 <div class="number">
                     <div class="numberIcon">
-                        <img src="contato.png">   
+                        <img src="contato.png">
                     </div>
                     <div class="numberInformation">
                         <p> 81 3511-1259</p>
                     </div>
                 </div>
                 <div class="email">
-                     <div class="emailIcon">
-                        <img src="email.png">   
-                     </div>
+                    <div class="emailIcon">
+                        <img src="email.png">
+                    </div>
                     <div class="emailInformation">
                         <p> doubledip@org.com  </p>
                     </div>
@@ -99,11 +208,12 @@
                         <img src="instagram.png">
                     </div>
                     <div class="instaInformation">
-                     <p>@doubledip.store</p>    
+                        <p>@doubledip.store</p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
